@@ -28,7 +28,7 @@ export default class App extends Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    if (this.state.userName === 'Eugen' && this.state.password === '1234') {
+    if (this.state.userName === 'Eugen' && this.state.password === '123') {
         this.setState({hasFailed: false, isAuth: true});
     } else {
       this.setState({hasFailed: true});
