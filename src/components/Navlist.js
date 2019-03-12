@@ -18,8 +18,6 @@ class NavList extends React.Component{
    }
 
 
-
-
   render(){
       return(
       <>

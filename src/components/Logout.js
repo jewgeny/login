@@ -18,6 +18,8 @@ class Logout extends React.Component{
            this.setState({count: this.state.count-1})
          }
        }, 1000);
+
+       this.props.resetFields();
     }
 
 
